@@ -1,10 +1,22 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: si-wong <si-wong@student.42kl.edu.my>      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/11/04 11:27:39 by si-wong           #+#    #+#             */
+/*   Updated: 2025/11/04 11:27:44 by si-wong          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../libft.h"
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-	char *destin;
-	const char *source;
-	size_t i;
+	char		*destin;
+	const char	*source;
+	size_t		i;
 
 	if (!dest && !src)
 		return (NULL);
